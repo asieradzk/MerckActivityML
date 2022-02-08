@@ -10,3 +10,6 @@ This sheet can be loaded by ML pipeline with the columns from 2 to n (11083 - 1 
 The method will normalise activity values between 0 and 1 using the [zi=xi−min(x)/max(x)−min(x)] formula. This ensures that ordering and range for training with these arbitrary values remains the same. If you dont want to normalise it this behaviour is hardcoded in DataMerger.cs -> ActivityDataTable class -> pseudoNormalise bool
 
 TrainModel() method will train a lightgbm on your specified table, you can tune hyperparameters, swap trainers or save model in the MLPipeline class
+
+Contact:
+bluekewe94@gmail.com
