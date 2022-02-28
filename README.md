@@ -12,4 +12,4 @@ The method will normalise activity values between 0 and 1 using the [zi=xi−min
 TrainModel() method will train a lightgbm on your specified table, you can tune hyperparameters, swap trainers or save model in the MLPipeline class
 
 Contact:
-bluekewe94@gmail.com
+contact@exmachinasoft.com
