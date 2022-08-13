@@ -4,12 +4,7 @@ namespace MerckActivityML
 {
     public class ActivityPrediction
     {
-
         [ColumnName("Score")]
-        public float predictedActivity;
-
-
-
-
+        public float PredictedActivity;
     }
 }

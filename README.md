@@ -2,6 +2,7 @@
 An example solution completely in ML.NET and c# for the 2012 Merck Molecular Activity Kaggle Challenge
 
 Run either TrainModel() or GenerateSheet() method from the Program class.
+Make sure to run the solution with `dotnet run -c release`.
 
 GenerateSheet() method will combine specified .csv files into one big table containing all common headers where missing values will be set to 0. For me this took 150 gb of ram and about 8 hours on my 10980XE at 150 watts, generated sheet had 3.3 gb.
 
