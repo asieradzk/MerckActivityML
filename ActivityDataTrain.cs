@@ -1,21 +1,16 @@
 ﻿using Microsoft.ML.Data;
 
-
 namespace MerckActivityML
 {
     public class ActivityDataTrain
     {
         [LoadColumn(0)]
-        public string moleculeID;
+        public string MoleculeID = string.Empty;
 
         [LoadColumn(1), ColumnName("Label")]
-        public float moleculeActivity;
-
-
+        public float MoleculeActivity;
 
         [LoadColumn(2, 11082)]
-        public float[] Features;
-
-
+        public float[] Features = Array.Empty<float>();
     }
 }
